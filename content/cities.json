@@ -1,0 +1,60 @@
+{
+  "elmwood": {
+    "slug": "elmwood",
+    "label": "Elmwood",
+    "province": "Northshire",
+    "image": "/assets/city-elmwood.png",
+    "blurb": "Tree-lined streets and walkable blocks — the heart of the portfolio, with renovated residences a short walk from the market square.",
+    "bounds": {
+      "minLng": -79.43,
+      "maxLng": -79.34,
+      "minLat": 43.63,
+      "maxLat": 43.68
+    },
+    "center": {
+      "lat": 43.6532,
+      "lng": -79.3832,
+      "spreadLat": 0.02,
+      "spreadLng": 0.04
+    }
+  },
+  "harbourton": {
+    "slug": "harbourton",
+    "label": "Harbourton",
+    "province": "Northshire",
+    "image": "/assets/city-harbourton.png",
+    "blurb": "A working waterfront town — quiet residential streets, a short walk from the quay and the morning ferry.",
+    "bounds": {
+      "minLng": -63.62,
+      "maxLng": -63.54,
+      "minLat": 44.63,
+      "maxLat": 44.67
+    },
+    "center": {
+      "lat": 44.6488,
+      "lng": -63.5752,
+      "spreadLat": 0.018,
+      "spreadLng": 0.035
+    }
+  },
+  "westbury": {
+    "slug": "westbury",
+    "label": "Westbury",
+    "province": "Northshire",
+    "image": "/assets/city-westbury.png",
+    "blurb": "A new market for the portfolio. Register your interest and we'll be in touch as homes become available.",
+    "bounds": {
+      "minLng": -75.75,
+      "maxLng": -75.65,
+      "minLat": 45.39,
+      "maxLat": 45.44
+    },
+    "comingSoon": true,
+    "center": {
+      "lat": 45.4215,
+      "lng": -75.6972,
+      "spreadLat": 0.02,
+      "spreadLng": 0.04
+    }
+  }
+}

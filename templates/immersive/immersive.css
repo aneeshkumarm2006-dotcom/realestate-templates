@@ -1,0 +1,348 @@
+/* ============================================================
+   IMMERSIVE — the scroll-built house.
+   Every selector scoped under [data-template="immersive"] so it
+   cannot collide with the other templates' stylesheets.
+   ============================================================ */
+
+[data-template="immersive"] {
+  --im-pad: clamp(20px, 5vw, 64px);
+}
+
+/* ---------- the pinned scroll stage ---------- */
+
+/* Tall parent = the scroll runway. The child pins to the viewport and the
+   distance travelled (height - 100vh) is what maps to progress 0 → 1. */
+[data-template="immersive"] .im-scroll {
+  position: relative;
+  height: 620vh;
+  background: var(--ivory);
+}
+[data-template="immersive"] .im-pin {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+[data-template="immersive"] .im-canvas {
+  position: absolute;
+  inset: 0;
+}
+[data-template="immersive"] .im-canvas canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* ---------- the copy that rides on top ---------- */
+[data-template="immersive"] .im-copy {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--im-pad);
+  /* The canvas must stay scrollable/interactive underneath; only the buttons
+     inside a live beat take pointer events (re-enabled on .is-on below). */
+  pointer-events: none;
+}
+
+[data-template="immersive"] .im-beat {
+  position: absolute;
+  max-width: min(560px, 78vw);
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 620ms var(--ease), transform 620ms var(--ease);
+  will-change: opacity, transform;
+}
+[data-template="immersive"] .im-beat.is-on {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+[data-template="immersive"] .im-eyebrow {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0 0 20px;
+}
+[data-template="immersive"] .im-title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(2.4rem, 5.4vw, 4.6rem);
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0;
+  /* The house sits behind the text — a soft halo keeps it legible over glass
+     and roof without resorting to a slab of overlay. */
+  text-shadow: 0 2px 26px var(--ivory), 0 1px 3px var(--ivory);
+}
+[data-template="immersive"] .im-sub {
+  font-family: var(--sans);
+  font-weight: 300;
+  font-size: clamp(1rem, 1.3vw, 1.15rem);
+  line-height: 1.75;
+  color: var(--ink);
+  opacity: 0.82;
+  max-width: 46ch;
+  margin: 22px 0 30px;
+  text-shadow: 0 1px 16px var(--ivory);
+}
+
+/* ---------- scroll hint ---------- */
+[data-template="immersive"] .im-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 34px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: opacity 500ms var(--ease);
+}
+[data-template="immersive"] .im-hint.is-gone { opacity: 0; }
+[data-template="immersive"] .im-hint-rule {
+  width: 1px;
+  height: 44px;
+  background: linear-gradient(to bottom, var(--hairline-strong), transparent);
+}
+
+/* ---------- reduced-motion / no-WebGL hero ---------- */
+[data-template="immersive"] .im-hero-static {
+  min-height: 78vh;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(to right, var(--ivory) 34%, rgba(0, 0, 0, 0) 78%),
+    url('/assets/hero-home.png') center / cover no-repeat;
+}
+[data-template="immersive"] .im-hero-inner {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 var(--im-pad);
+  width: 100%;
+}
+[data-template="immersive"] .im-hero-static .im-sub { margin-bottom: 34px; }
+
+/* ---------- chrome ---------- */
+[data-template="immersive"] .im-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px var(--im-pad);
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background 380ms var(--ease), border-color 380ms var(--ease),
+    backdrop-filter 380ms var(--ease);
+}
+/* Sits over the canvas at rest; solidifies once the house is behind you. */
+[data-template="immersive"] .im-header.is-stuck {
+  background: color-mix(in srgb, var(--ivory) 86%, transparent);
+  backdrop-filter: blur(12px);
+  border-bottom-color: var(--hairline);
+}
+[data-template="immersive"] .im-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 2.4vw, 34px);
+}
+[data-template="immersive"] .im-nav a {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  opacity: 0.72;
+  transition: opacity 200ms var(--ease);
+}
+[data-template="immersive"] .im-nav a:hover,
+[data-template="immersive"] .im-nav a.active { opacity: 1; }
+[data-template="immersive"] .im-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+[data-template="immersive"] .im-fav {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--ink);
+}
+[data-template="immersive"] .im-burger {
+  display: none;
+  background: transparent;
+  border: 0;
+  color: var(--ink);
+}
+
+[data-template="immersive"] .im-footer {
+  background: var(--ink);
+  color: var(--ivory);
+  padding: clamp(56px, 8vw, 96px) var(--im-pad) 34px;
+}
+[data-template="immersive"] .im-footer-grid {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: clamp(28px, 5vw, 72px);
+}
+[data-template="immersive"] .im-footer h4 {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-soft);
+  margin: 0 0 16px;
+}
+[data-template="immersive"] .im-footer ul { list-style: none; margin: 0; padding: 0; }
+[data-template="immersive"] .im-footer li { margin-bottom: 11px; }
+[data-template="immersive"] .im-footer a,
+[data-template="immersive"] .im-footer li {
+  font-family: var(--sans);
+  font-size: 14px;
+  color: rgba(247, 243, 236, 0.72);
+  cursor: pointer;
+  transition: color 200ms var(--ease);
+}
+[data-template="immersive"] .im-footer a:hover { color: var(--ivory); }
+[data-template="immersive"] .im-footer-tag {
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(247, 243, 236, 0.7);
+  max-width: 34ch;
+  margin: 22px 0 0;
+}
+[data-template="immersive"] .im-footer-bottom {
+  max-width: 1360px;
+  margin: clamp(40px, 6vw, 72px) auto 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(247, 243, 236, 0.16);
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: rgba(247, 243, 236, 0.5);
+}
+
+/* ---------- home sections below the hero ---------- */
+[data-template="immersive"] .im-section {
+  padding: clamp(72px, 10vw, 130px) var(--im-pad);
+}
+[data-template="immersive"] .im-wrap { max-width: 1360px; margin: 0 auto; }
+[data-template="immersive"] .im-h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.9rem, 3.4vw, 3rem);
+  line-height: 1.1;
+  color: var(--ink);
+  margin: 14px 0 0;
+}
+[data-template="immersive"] .im-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: clamp(32px, 4vw, 54px);
+}
+[data-template="immersive"] .im-grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(18px, 2.2vw, 30px);
+}
+[data-template="immersive"] .im-cities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(14px, 1.8vw, 22px);
+}
+[data-template="immersive"] .im-city {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  display: block;
+  cursor: pointer;
+  background: var(--cream);
+}
+[data-template="immersive"] .im-city img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 1100ms var(--ease);
+}
+[data-template="immersive"] .im-city:hover img { transform: scale(1.05); }
+[data-template="immersive"] .im-city-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.05) 62%);
+}
+[data-template="immersive"] .im-city-label {
+  position: absolute;
+  left: 20px; right: 20px; bottom: 20px;
+  color: var(--ivory);
+}
+[data-template="immersive"] .im-city-name {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 500;
+}
+[data-template="immersive"] .im-city-soon {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-soft);
+}
+[data-template="immersive"] .im-cta {
+  background: var(--ink);
+  color: var(--ivory);
+  text-align: center;
+  padding: clamp(64px, 9vw, 120px) var(--im-pad);
+}
+[data-template="immersive"] .im-cta .im-h2 { color: var(--ivory); }
+[data-template="immersive"] .im-cta .im-eyebrow { color: var(--gold-soft); }
+[data-template="immersive"] .im-cta-row {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 900px) {
+  /* Shorter runway on phones — a 620vh scroll-jack on a small screen is
+     genuinely unpleasant, and the beats still land. */
+  [data-template="immersive"] .im-scroll { height: 440vh; }
+  [data-template="immersive"] .im-grid3,
+  [data-template="immersive"] .im-cities { grid-template-columns: 1fr; }
+  [data-template="immersive"] .im-footer-grid { grid-template-columns: 1fr; }
+  [data-template="immersive"] .im-nav { display: none; }
+  [data-template="immersive"] .im-burger { display: inline-flex; }
+  [data-template="immersive"] .im-copy { align-items: flex-end; padding-bottom: 96px; }
+  [data-template="immersive"] .im-beat { max-width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-template="immersive"] .im-beat,
+  [data-template="immersive"] .im-hint,
+  [data-template="immersive"] .im-city img { transition: none !important; }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+
+# Raw image masters — keep local, ship resized copies via public/assets/
+# (drop the client's originals in Images/ and run `npm run sync-images`)
+Images/

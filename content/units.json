@@ -1,0 +1,41 @@
+{
+  "elmwood-court": [
+    {
+      "unit": "201",
+      "type": "1 Bedroom",
+      "rent": 1295,
+      "images": [
+        "/assets/elmwood-court/units/201/01.jpg",
+        "/assets/elmwood-court/units/201/02.jpg",
+        "/assets/elmwood-court/units/201/03.jpg"
+      ]
+    },
+    {
+      "unit": "304",
+      "type": "1 Bedroom",
+      "rent": 1345
+    },
+    {
+      "unit": "410",
+      "type": "2 Bedroom",
+      "rent": 1650
+    }
+  ],
+  "harbour-view": [
+    {
+      "unit": "1B",
+      "type": "Studio",
+      "rent": 1150
+    },
+    {
+      "unit": "2C",
+      "type": "1 Bedroom",
+      "rent": 1420
+    },
+    {
+      "unit": "5A",
+      "type": "2 Bedroom",
+      "rent": 1795
+    }
+  ]
+}

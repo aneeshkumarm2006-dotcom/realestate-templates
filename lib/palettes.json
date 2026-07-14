@@ -1,0 +1,82 @@
+{
+  "midnight": {
+    "label": "Midnight",
+    "note": "Navy & gold. Classic, establishment, editorial.",
+    "theme": {
+      "ink": "#0A1929", "inkSoft": "#1A2F47",
+      "ivory": "#F7F3EC", "cream": "#EFE8DC", "bone": "#FFFFFF",
+      "gold": "#B8965A", "goldSoft": "#D9C39A",
+      "muted": "#6B7A8F", "hairline": "#E4DDD0", "hairlineStrong": "#C9C0AE"
+    }
+  },
+  "slate": {
+    "label": "Slate",
+    "note": "Cool blue-grey with a steel-blue accent. Calm, professional, proptech.",
+    "theme": {
+      "ink": "#16202B", "inkSoft": "#27374A",
+      "ivory": "#F4F6F8", "cream": "#E9EDF1", "bone": "#FFFFFF",
+      "gold": "#3E6D9E", "goldSoft": "#9DB6D2",
+      "muted": "#64748B", "hairline": "#DDE3EA", "hairlineStrong": "#C2CBD6"
+    }
+  },
+  "forest": {
+    "label": "Forest",
+    "note": "Deep green & warm brass. Grounded, heritage, natural.",
+    "theme": {
+      "ink": "#14241C", "inkSoft": "#24382C",
+      "ivory": "#F5F3EC", "cream": "#E9E7DB", "bone": "#FFFFFF",
+      "gold": "#A98B4B", "goldSoft": "#CDB782",
+      "muted": "#6A7A6E", "hairline": "#E0DDD0", "hairlineStrong": "#C5C1AE"
+    }
+  },
+  "terracotta": {
+    "label": "Terracotta",
+    "note": "Warm clay on soft ivory. Friendly, sunlit, Mediterranean.",
+    "theme": {
+      "ink": "#2B1D16", "inkSoft": "#43302A",
+      "ivory": "#FBF5EE", "cream": "#F3E9DE", "bone": "#FFFFFF",
+      "gold": "#C06A43", "goldSoft": "#E0A07E",
+      "muted": "#8A7461", "hairline": "#EBDFD2", "hairlineStrong": "#D7C4B1"
+    }
+  },
+  "plum": {
+    "label": "Plum",
+    "note": "Deep aubergine with a mauve accent. Refined, moody, boutique.",
+    "theme": {
+      "ink": "#241826", "inkSoft": "#3A2A3D",
+      "ivory": "#F8F3F5", "cream": "#EFE4E9", "bone": "#FFFFFF",
+      "gold": "#9E5C79", "goldSoft": "#C79BB2",
+      "muted": "#7C6B7E", "hairline": "#E7DCE2", "hairlineStrong": "#CDBDC8"
+    }
+  },
+  "charcoal": {
+    "label": "Charcoal",
+    "note": "Near-black warm grey with an amber accent. High-contrast, modern.",
+    "theme": {
+      "ink": "#1C1B19", "inkSoft": "#302E2B",
+      "ivory": "#F6F5F2", "cream": "#EAE8E3", "bone": "#FFFFFF",
+      "gold": "#C9872F", "goldSoft": "#E6BE86",
+      "muted": "#77746D", "hairline": "#E2DFD8", "hairlineStrong": "#C8C4BA"
+    }
+  },
+  "sage": {
+    "label": "Sage",
+    "note": "Soft muted green-grey with olive. Quiet, understated, calm.",
+    "theme": {
+      "ink": "#2A2E24", "inkSoft": "#3E4436",
+      "ivory": "#F4F5EF", "cream": "#E8EAE0", "bone": "#FFFFFF",
+      "gold": "#8A8B4A", "goldSoft": "#BFC08A",
+      "muted": "#6E7268", "hairline": "#E1E2D6", "hairlineStrong": "#C6C8B7"
+    }
+  },
+  "ocean": {
+    "label": "Ocean",
+    "note": "Deep teal with a coral accent. Fresh, coastal, confident.",
+    "theme": {
+      "ink": "#0E2A2E", "inkSoft": "#1D4147",
+      "ivory": "#F1F6F5", "cream": "#E2ECEA", "bone": "#FFFFFF",
+      "gold": "#D97A5E", "goldSoft": "#EDA98F",
+      "muted": "#5E7B7C", "hairline": "#D8E4E1", "hairlineStrong": "#BCCFCB"
+    }
+  }
+}

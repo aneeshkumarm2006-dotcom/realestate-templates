@@ -1,0 +1,17 @@
+{
+  "name": "Northwind Residences",
+  "shortName": "Northwind",
+  "tagline": "Apartment homes, thoughtfully managed",
+  "metadata": {
+    "title": "Northwind Residences | Apartment homes",
+    "description": "Renovated, locally managed apartment homes. Browse residences by city, tour floor plans, and inquire in minutes."
+  },
+  "logo": {
+    "light": "/brand/logo-light.svg",
+    "dark": "/brand/logo-dark.svg",
+    "aspectRatio": 2.99
+  },
+  "template": "editorial",
+  "palette": "slate",
+  "theme": {}
+}

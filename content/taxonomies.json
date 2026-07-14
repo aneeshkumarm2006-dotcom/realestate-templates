@@ -1,0 +1,52 @@
+{
+  "tiers": [
+    {
+      "value": "value-add",
+      "label": "Renovated classic",
+      "line": "An older building brought up to standard — modernised suites, secured entry, and refreshed common areas, locally managed with a one-business-day maintenance response."
+    },
+    {
+      "value": "newer",
+      "label": "Newer build",
+      "line": "A newer building with bright, well-finished suites and secured entry, locally managed with a one-business-day maintenance response."
+    },
+    {
+      "value": "premium",
+      "label": "Premium",
+      "line": "Elevated rental living — premium finishes, open-plan suites, and secured building access, locally managed."
+    },
+    {
+      "value": "coming-soon",
+      "label": "Coming soon",
+      "line": "Coming soon. Register your interest and we'll be in touch as homes become available."
+    }
+  ],
+  "unitTypes": [
+    {
+      "label": "Studio",
+      "bedrooms": 0
+    },
+    {
+      "label": "1 Bedroom",
+      "bedrooms": 1
+    },
+    {
+      "label": "2 Bedroom",
+      "bedrooms": 2
+    },
+    {
+      "label": "3 Bedroom",
+      "bedrooms": 3
+    }
+  ],
+  "photoTags": [
+    "Exterior",
+    "Studio",
+    "1 Bedroom",
+    "2 Bedroom",
+    "3 Bedroom",
+    "Amenity",
+    "Floor plan",
+    "Neighbourhood"
+  ]
+}

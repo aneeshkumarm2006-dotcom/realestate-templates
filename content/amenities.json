@@ -1,0 +1,53 @@
+{
+  "elmwood-court": {
+    "features": [
+      "Renovated kitchens and baths",
+      "Refinished hardwood floors",
+      "Large operable windows",
+      "Generous storage",
+      "Fresh paint throughout"
+    ],
+    "amenities": [
+      "Secured entry",
+      "Communal laundry",
+      "Surface parking",
+      "Pet-friendly",
+      "Heat and hot water included",
+      "On-site resident manager"
+    ]
+  },
+  "alder-house": {
+    "features": [
+      "In-suite laundry",
+      "Open-plan living",
+      "Quartz countertops",
+      "Walk-in wardrobes",
+      "Private balconies"
+    ],
+    "amenities": [
+      "Secured underground parking",
+      "Landscaped courtyard",
+      "Elevator",
+      "Fitness room",
+      "Parcel room",
+      "Pet-friendly"
+    ]
+  },
+  "harbour-view": {
+    "features": [
+      "High ceilings",
+      "Water views from most suites",
+      "In-suite laundry",
+      "Stainless appliances",
+      "Juliet balconies"
+    ],
+    "amenities": [
+      "Secured entry",
+      "Sheltered bicycle room",
+      "Elevator",
+      "Rooftop terrace",
+      "Heat and hot water included",
+      "Pet-friendly"
+    ]
+  }
+}

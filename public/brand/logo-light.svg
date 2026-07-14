@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299 100" width="299" height="100" role="img" aria-label="Northwind Residences">
+  <rect x="2.75" y="18.75" width="62.5" height="62.5" fill="none" stroke="#3E6D9E" stroke-width="1.5"/>
+  <text x="34" y="50" fill="#16202B" font-family="Georgia, 'Times New Roman', 'Iowan Old Style', serif" font-size="34" text-anchor="middle" dominant-baseline="central">N</text>
+  <text x="86" y="52" fill="#16202B" font-family="Georgia, 'Times New Roman', 'Iowan Old Style', serif" font-size="30" letter-spacing="0.06em">NORTHWIND</text>
+  <text x="86" y="74" fill="#64748B" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="0.3em">RESIDENCES</text>
+</svg>

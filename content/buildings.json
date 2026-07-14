@@ -1,0 +1,40 @@
+[
+  {
+    "slug": "elmwood-court",
+    "name": "Elmwood Court",
+    "city": "elmwood",
+    "address": "128 Maple Street, Elmwood, NS A1B 2C3",
+    "featured": true,
+    "featuredRank": 1,
+    "bedrooms": [
+      1,
+      2
+    ]
+  },
+  {
+    "slug": "alder-house",
+    "name": "Alder House",
+    "city": "elmwood",
+    "address": "47 Birch Lane, Elmwood, NS A1B 4D6",
+    "featured": true,
+    "featuredRank": 3,
+    "bedrooms": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "slug": "harbour-view",
+    "name": "Harbour View",
+    "city": "harbourton",
+    "address": "9 Quay Road, Harbourton, NS B2C 5E7",
+    "featured": true,
+    "featuredRank": 2,
+    "bedrooms": [
+      0,
+      1,
+      2
+    ]
+  }
+]

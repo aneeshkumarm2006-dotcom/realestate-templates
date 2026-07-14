@@ -1,0 +1,270 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow": "Locally managed · Northshire",
+      "title": "Apartment homes, kept to one standard.",
+      "subtitle": "Thoughtfully maintained apartment homes across Northshire, owned and run by the same team that answers your call.",
+      "searchButton": "Search homes",
+      "disclaimer": "Prices shown are net effective rent — what you actually pay after any promotion."
+    },
+    "cities": {
+      "eyebrow": "OUR CITIES",
+      "title": "Two cities, and growing.",
+      "blurb": "A focused portfolio, chosen building by building. Every one kept and cared for with intent. Start with your city.",
+      "comingSoonBadge": "Coming soon",
+      "comingSoonCta": "Register your interest →",
+      "liveCta": "View residences →"
+    },
+    "featured": {
+      "eyebrow": "FEATURED RESIDENCES",
+      "title": "Homes available now.",
+      "viewAllLabel": "View all residences"
+    },
+    "benefits": {
+      "eyebrow": "WHY RENT WITH US",
+      "title": "We own what we manage.",
+      "subtitle": "No third-party manager between you and your home — the team that owns the building is the one that looks after it.",
+      "items": [
+        {
+          "title": "Owner-operated",
+          "body": "The people who own the buildings are the people who run them."
+        },
+        {
+          "title": "One-day response",
+          "body": "Maintenance answered within one business day."
+        },
+        {
+          "title": "Renovated & secured",
+          "body": "Updated suites and upgraded building security."
+        },
+        {
+          "title": "Pet-friendly homes",
+          "body": "Most of our residences welcome pets."
+        }
+      ]
+    },
+    "steps": {
+      "eyebrow": "HOW TO RENT",
+      "title": "Five steps to your new home.",
+      "items": [
+        "Search",
+        "Book a viewing",
+        "Apply",
+        "Get approved",
+        "Move in"
+      ]
+    },
+    "story": {
+      "eyebrow": "OUR STORY",
+      "title": "We buy buildings to keep them.",
+      "paragraph": "Northwind began with a single walk-up on Maple Street and a simple conviction: a building is worth more when the people who own it are the people who look after it. We acquire, renovate, and operate apartment homes ourselves — which is why we treat every resident as a long-term relationship, not a transaction.",
+      "timeline": [
+        {
+          "year": "2019",
+          "label": "First building acquired · Elmwood"
+        },
+        {
+          "year": "2023",
+          "label": "Expanded to Harbourton"
+        },
+        {
+          "year": "Today",
+          "label": "A growing portfolio across Northshire."
+        }
+      ],
+      "ctaLabel": "Our story"
+    },
+    "cta": {
+      "eyebrow": "BEGIN AN INQUIRY",
+      "title": "Begin your inquiry.",
+      "body": "Tell us the city, the budget, and the move-in date — we'll find the right home for you.",
+      "primaryLabel": "Browse residences",
+      "secondaryLabel": "Contact us"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "ABOUT NORTHWIND",
+      "titleItalic": "Est.",
+      "titleRest": "2019.",
+      "subtitle": "An owner-operator of apartment homes across Northshire — buildings we buy to keep, renovate with care, and manage ourselves."
+    },
+    "story": {
+      "eyebrow": "OUR STORY",
+      "lead": "We believe real estate is about more than buildings. It's about creating places where people feel settled, supported, and glad to stay.",
+      "cards": [
+        {
+          "numeral": "I",
+          "eyebrow": "VISION",
+          "quote": "Long-term value to the people and communities we serve.",
+          "body": "From the first building to the portfolio today, one idea has guided the work: invest in properties that bring long-term value to the residents who live in them and the streets they sit on."
+        },
+        {
+          "numeral": "II",
+          "eyebrow": "APPROACH",
+          "quote": "Lasting impressions of comfort, opportunity, and trust.",
+          "body": "We aim to create spaces that leave lasting impressions of comfort and trust. Each building is treated on its own terms — restored where there is something worth restoring, modernised where there is not."
+        },
+        {
+          "numeral": "III",
+          "eyebrow": "STANDARD",
+          "quote": "A standard of quality and service to rely on.",
+          "body": "Residents, partners, and communities benefit from a standard they can rely on. Through careful management, patient investment, and strong local relationships, we build places where people want to stay."
+        },
+        {
+          "numeral": "IV",
+          "eyebrow": "GROWTH",
+          "quote": "Shaped by the needs of those we serve.",
+          "body": "As we grow, our commitment to quality is shaped by the people we serve. We listen, learn, and improve — from acquisition and renovation through to the daily work of looking after a building well."
+        }
+      ],
+      "close": "Every day we move forward together, making the ordinary experience of renting a home more considered, more responsive, and more humane."
+    },
+    "standards": {
+      "eyebrow": "OUR STANDARDS",
+      "title": "The way we operate.",
+      "items": [
+        "Restoration over renovation — original detail is preserved where it exists.",
+        "A single resident manager per building, hired locally.",
+        "Maintenance requests addressed within one business day.",
+        "Long-term leases preferred; terms structured to reward stability.",
+        "Regular building inspections and preventative maintenance.",
+        "No third-party leasing agents — we represent every residence directly."
+      ]
+    },
+    "figures": {
+      "eyebrow": "BY THE NUMBERS",
+      "title": "The shape of the practice.",
+      "blurb": "Four figures that describe how Northwind came to be, and how it operates today.",
+      "items": [
+        {
+          "value": "2019",
+          "label": "FIRST BUILDING",
+          "body": "Northwind began with a single walk-up on Maple Street in Elmwood, bought to keep rather than to flip."
+        },
+        {
+          "value": "2023",
+          "label": "A SECOND CITY",
+          "body": "The portfolio expanded to Harbourton, with a local team on the ground from the first day."
+        },
+        {
+          "value": "3",
+          "label": "RESIDENCES, AND GROWING",
+          "body": "A deliberately small portfolio — every building chosen individually, none of them managed at arm's length."
+        },
+        {
+          "value": "100%",
+          "label": "OPERATED IN-HOUSE",
+          "body": "No third-party managers, no leasing agents. Every resident speaks with someone who works here."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "INQUIRE",
+      "title": "Begin a conversation.",
+      "buttonLabel": "Contact our team"
+    }
+  },
+  "whyUs": {
+    "hero": {
+      "eyebrow": "WHY US",
+      "title": "A different kind of landlord."
+    },
+    "intro": {
+      "pullQuote": "We buy buildings to keep them, which is why we treat every resident as a long-term relationship, not a transaction.",
+      "attribution": "THE NORTHWIND TEAM",
+      "paragraph1": "Most residential real estate is built to sell. The market measures buildings by turnover, units by yield, neighbourhoods by appreciation. We do none of that. We measure the work in the number of residents who renew their lease without having to think about it.",
+      "paragraph2": "Northwind began with one building in Elmwood and grew slowly, on purpose. Every residence in the portfolio is owned, renovated, and operated in-house — there is no third party standing between a resident and the people responsible for their home."
+    },
+    "pillars": [
+      {
+        "eyebrow": "I · OWNERSHIP",
+        "title": "We own what we manage.",
+        "body": "The buildings are owned outright by the people who run them. No third-party manager sits between you and your home, and the person who answers your call has the authority to fix the problem. It is our single biggest difference."
+      },
+      {
+        "eyebrow": "II · RENOVATION",
+        "title": "Renovated, updated, and secured.",
+        "body": "We buy buildings to keep them, then invest in them: modernised suites, refreshed kitchens and baths, and upgraded building security. Older buildings are brought up to a standard worth staying in for years."
+      },
+      {
+        "eyebrow": "III · SERVICE",
+        "title": "A one-business-day response standard.",
+        "body": "Maintenance requests are answered within one business day by a local team in your city — not a call centre in another time zone. Most of our residences are pet-friendly. It is the kind of service that used to be standard, and is now rare."
+      }
+    ],
+    "stats": [
+      {
+        "value": "3",
+        "label": "Residences across Northshire"
+      },
+      {
+        "value": "1 day",
+        "label": "Maintenance response standard"
+      },
+      {
+        "value": "100%",
+        "label": "Owned & operated in-house"
+      }
+    ],
+    "cta": {
+      "title": "Discover our residences.",
+      "buttonLabel": "View the portfolio"
+    }
+  },
+  "careers": {
+    "hero": {
+      "eyebrow": "CAREERS",
+      "title": "Grow your career where ambition meets opportunity.",
+      "subtitle": "Start or grow your career with Northwind Residences, an owner-operator of apartment homes across Northshire. We invest in our buildings and in the people who care for them."
+    },
+    "openings": {
+      "eyebrow": "CAREER CENTRE",
+      "title": "Current openings.",
+      "noOpeningsMessage": "There are currently no job openings available. Please check back soon.",
+      "contactIntro": "We're always glad to hear from talented people. To introduce yourself, email us at",
+      "buttonLabel": "Contact our team"
+    },
+    "benefits": {
+      "eyebrow": "KEY BENEFITS",
+      "title": "What we offer.",
+      "items": [
+        "Health and dental benefits",
+        "Paid time off and statutory holidays",
+        "Education and training support",
+        "Cross-training across the portfolio",
+        "Internal promotion opportunities",
+        "A close-knit, owner-operated team"
+      ]
+    }
+  },
+  "immersive": {
+    "captions": [
+      {
+        "eyebrow": "01 · CONSTRUCTION",
+        "title": "Built to one standard.",
+        "body": "Every building in the portfolio is taken back to the structure and brought up to the same specification — services, security, finishes."
+      },
+      {
+        "eyebrow": "02 · ARRIVAL",
+        "title": "Step inside.",
+        "body": "Secured entry, a resident manager on site, and a door that actually gets answered."
+      },
+      {
+        "eyebrow": "03 · THE KITCHEN",
+        "title": "Where the day starts.",
+        "body": "Modernised kitchens with real counter space and appliances that are new, not nearly new."
+      },
+      {
+        "eyebrow": "04 · UPSTAIRS",
+        "title": "Room to stay a while.",
+        "body": "Bright suites with generous storage — homes meant for long leases, not quick turns."
+      }
+    ],
+    "cta": {
+      "title": "Now find yours.",
+      "body": "Tell us the city, the budget, and the move-in date.",
+      "buttonLabel": "Browse residences"
+    }
+  }
+}

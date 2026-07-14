@@ -1,0 +1,39 @@
+{
+  "elmwood-court": {
+    "neighbourhood": "Market Square",
+    "tier": "value-add",
+    "description": "A renovated 1960s walk-up two blocks from Elmwood's market square. Modernised suites, secured entry, and a resident manager on site — on a quiet street that still puts the grocer, the library, and the tram stop within a ten-minute walk.",
+    "closeTo": [
+      "Elmwood Market Square",
+      "Central Library",
+      "Riverside Park",
+      "Tram Line 2",
+      "Elmwood College",
+      "Independent cafés on Maple Street"
+    ]
+  },
+  "alder-house": {
+    "neighbourhood": "Birch Quarter",
+    "tier": "premium",
+    "description": "Purpose-built rental in the Birch Quarter, finished to a higher standard than the street around it. Open-plan suites, in-suite laundry, and secured underground parking, with a landscaped courtyard at the centre of the building.",
+    "closeTo": [
+      "Birch Quarter shops",
+      "Alder Green",
+      "Elmwood General Hospital",
+      "Tram Line 1",
+      "Weekend farmers' market"
+    ]
+  },
+  "harbour-view": {
+    "neighbourhood": "The Quay",
+    "tier": "newer",
+    "description": "A newer building a single street back from Harbourton's working quay. Bright suites with high ceilings, most with water views, and a sheltered bicycle room by the entrance for the commute along the seawall.",
+    "closeTo": [
+      "Harbourton Quay",
+      "The seawall path",
+      "Morning ferry terminal",
+      "Quay Road restaurants",
+      "Harbourton Community Centre"
+    ]
+  }
+}

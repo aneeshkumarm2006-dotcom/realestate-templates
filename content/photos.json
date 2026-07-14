@@ -1,0 +1,74 @@
+{
+  "elmwood-court": {
+    "hero": "/assets/elmwood-court/01-main.jpg",
+    "gallery": [
+      "/assets/elmwood-court/02.jpg",
+      "/assets/elmwood-court/03.jpg",
+      "/assets/elmwood-court/04.jpg",
+      "/assets/elmwood-court/05.jpg"
+    ],
+    "hidden": [],
+    "tags": {
+      "/assets/elmwood-court/01-main.jpg": "Exterior",
+      "/assets/elmwood-court/02.jpg": "1 Bedroom",
+      "/assets/elmwood-court/03.jpg": "1 Bedroom",
+      "/assets/elmwood-court/04.jpg": "2 Bedroom",
+      "/assets/elmwood-court/05.jpg": "Amenity"
+    },
+    "alt": {
+      "/assets/elmwood-court/01-main.jpg": "Exterior of Elmwood Court",
+      "/assets/elmwood-court/02.jpg": "Interior at Elmwood Court",
+      "/assets/elmwood-court/03.jpg": "Interior at Elmwood Court",
+      "/assets/elmwood-court/04.jpg": "Interior at Elmwood Court",
+      "/assets/elmwood-court/05.jpg": "Interior at Elmwood Court"
+    }
+  },
+  "alder-house": {
+    "hero": "/assets/alder-house/01-main.jpg",
+    "gallery": [
+      "/assets/alder-house/02.jpg",
+      "/assets/alder-house/03.jpg",
+      "/assets/alder-house/04.jpg",
+      "/assets/alder-house/05.jpg"
+    ],
+    "hidden": [],
+    "tags": {
+      "/assets/alder-house/01-main.jpg": "Exterior",
+      "/assets/alder-house/02.jpg": "Studio",
+      "/assets/alder-house/03.jpg": "1 Bedroom",
+      "/assets/alder-house/04.jpg": "2 Bedroom",
+      "/assets/alder-house/05.jpg": "Amenity"
+    },
+    "alt": {
+      "/assets/alder-house/01-main.jpg": "Exterior of Alder House",
+      "/assets/alder-house/02.jpg": "Interior at Alder House",
+      "/assets/alder-house/03.jpg": "Interior at Alder House",
+      "/assets/alder-house/04.jpg": "Interior at Alder House",
+      "/assets/alder-house/05.jpg": "Interior at Alder House"
+    }
+  },
+  "harbour-view": {
+    "hero": "/assets/harbour-view/01-main.jpg",
+    "gallery": [
+      "/assets/harbour-view/02.jpg",
+      "/assets/harbour-view/03.jpg",
+      "/assets/harbour-view/04.jpg",
+      "/assets/harbour-view/05.jpg"
+    ],
+    "hidden": [],
+    "tags": {
+      "/assets/harbour-view/01-main.jpg": "Exterior",
+      "/assets/harbour-view/02.jpg": "Studio",
+      "/assets/harbour-view/03.jpg": "1 Bedroom",
+      "/assets/harbour-view/04.jpg": "2 Bedroom",
+      "/assets/harbour-view/05.jpg": "Neighbourhood"
+    },
+    "alt": {
+      "/assets/harbour-view/01-main.jpg": "Exterior of Harbour View",
+      "/assets/harbour-view/02.jpg": "Interior at Harbour View",
+      "/assets/harbour-view/03.jpg": "Interior at Harbour View",
+      "/assets/harbour-view/04.jpg": "Interior at Harbour View",
+      "/assets/harbour-view/05.jpg": "Interior at Harbour View"
+    }
+  }
+}
