@@ -11,7 +11,7 @@
     "dark": "/brand/logo-dark.svg",
     "aspectRatio": 2.99
   },
-  "template": "editorial",
+  "template": "grid",
   "palette": "slate",
   "theme": {}
 }
